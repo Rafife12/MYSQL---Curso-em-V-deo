@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS cadastro;
+USE cadastro;
+
+CREATE TABLE IF NOT EXISTS pessoas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    idade INT
+);
